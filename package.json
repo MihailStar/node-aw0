@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsdoc": "^29.1.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=13.0.0"
+  },
+  "name": "node-aw0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon \"./index.js\"",
+    "start": "node \"./index.js\""
+  },
+  "type": "module"
+}
